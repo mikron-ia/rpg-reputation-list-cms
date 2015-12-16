@@ -1,6 +1,18 @@
-assets/*
-!assets/.gitignore
+# project files
+.idea
+project
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer
+/vendor
+composer.phar
+
+# yii files
 protected/runtime/*
 !protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+config/db.php
