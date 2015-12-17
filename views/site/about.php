@@ -11,8 +11,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        This is the About page. You may modify the following file to customize its content:
+        This system is a very simple CMS for managing reputation data collected for reputation list system. It is not
+        completed yet and may change its behaviour at any time.
     </p>
 
-    <code><?= __FILE__ ?></code>
 </div>
